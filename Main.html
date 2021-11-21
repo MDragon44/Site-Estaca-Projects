@@ -5,6 +5,7 @@
  	<link rel="stylesheet" href="css/style_dark.css" id="mycss">
 	<title>Menu</title>
 	<link rel="icon" type="image/x-icon" href="https://pbs.twimg.com/profile_images/755292884308459522/ewGGfLoa_400x400.jpg">
+	<!-- <script src="Js/darkMode.js"></script> -->
 </head>
 <body>
 <!-- <div class="nightbar"> -->
@@ -20,7 +21,13 @@
 	<ul>
 		<li><a href="#news">News</a></li>
 		<li><a href="#contact">Contact</a></li>
-		<li style="float:right"><a class="active" href="#about">Lmode</a></li>
+		<li style="float:right">
+			<!-- Rounded switch -->
+			<label class="switch">
+			<input id="light" type="checkbox" onchange="switchStyle()" checked>
+			<span class="slider round"></span>
+			</label>
+		</li>
 	</ul>
 	<br><img id="photoUser" src="img/estaca-squarelogo-1454910796826.png" style="width: 30%;" />
 	<br>
@@ -28,7 +35,7 @@
 	<a href="Project1.html">
 	<img id="Project1" src="img/logo_eso_fond_bleu_horizontal.png" type="button"  />
 	</a>
-	<h3>Pick the project you want :</h3>
+	<h3 ></h3>
 	<img id="Project2" src="img/Logo_Hyperion_Grad_Gris-e1599864028985.png" type="button"  />
 
 	<!-- <input id="login" placeholder="Identifiant" /> -->
@@ -36,5 +43,6 @@
 	<!-- <br><input id="button" type="button" value="Rechercher" onclick="auth()" /> -->
 	<!-- <p id="info_message">Connectez-vous avec vos identifiants Ecole_Directe</p> -->
 	</div>
+	<script src="Js/darkMode.js"></script>
 </body>
 </html>
