@@ -29,6 +29,7 @@ h2 {
 	border-radius: 45px;
 	position:absolute;
 	top: 50%;
+	visibility: hidden;
 }
 
 /* input[type="checkbox"] { */
