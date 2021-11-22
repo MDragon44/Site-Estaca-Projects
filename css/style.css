@@ -19,7 +19,11 @@ h2 {
 	padding-left: 7px;
 }
 
-#photoUser {
+#photoUserlight {
+	border-radius: 45px;
+	position:absolute
+}
+#photoUserdark {
 	border-radius: 45px;
 	position:absolute
 }
