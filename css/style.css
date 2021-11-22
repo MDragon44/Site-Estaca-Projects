@@ -21,11 +21,13 @@ h2 {
 
 #photoUserlight {
 	border-radius: 45px;
-	position:absolute
+	position:absolute;
+	top: 50%;
+	
 }
 #photoUserdark {
 	border-radius: 45px;
-	position:absolute
+	position:absolute;
 }
 
 /* input[type="checkbox"] { */
