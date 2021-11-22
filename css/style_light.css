@@ -13,6 +13,15 @@ body {
 	/* box-sizing: border-box; */
 /* } */
 
+input {
+	font-size: 20px;
+	border-width: 0px;
+	background-color: #bfbfbf;
+	margin: 8px;
+	padding: 4px;
+	box-sizing: border-box;
+}
+
 
 
 .menu {
@@ -35,7 +44,41 @@ body {
 	box-shadow: 10px 10px 20px #cbced1, -10px -10px 20px #fff;
 }
 
+ul {
+	
+  position: sticky;
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0099ff;
+  border-radius: 15px;
+}
 
+li {
+	
+  float: left;
+}
+
+li a {
+	transition: all 0.5s;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color : black;
+  background-color: white;
+  /* #0a0f29 */
+}
+
+.active {
+  background-color: #0066ff;
+}
 
 
 #button {
@@ -50,58 +93,32 @@ body {
 	border: 0;
 	padding: 10px;
 	cursor: pointer;
-	box-shadow: 2px 2px 5px #008ae6, -2px -2px 5px #1aa3ff;
+	transition: font-size 0.5s;
 }
 
 #button:hover {
-	border-radius: 15px;
-	text-align: center;
-	font-size: 20px;
-	color: White;
-	background-color: black;
-	outline: 0;
-	margin: 8px;
-	border: 0;
-	padding: 10px;
-	cursor: pointer;
-	box-shadow: 2px 2px 5px #000000, -2px -2px 5px #0d0d0d;
+	font-size: 24px;
+	color: black;
+	background-color: white;
 }
-
 
 #title {
 	color: White;
 }
 
-.nightbar {
-	margin:0;
-	padding:0;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	min-height:100vh;
-}
-
-
-#light {
-	display: none;
-}
-
-#dark {
-	display: inline;
-}
-
 #Project1 {
-	/* width: 80%; */
+	width: 80%;
 	border-radius: 15px;
 	position: relative;
 	max-width: 240px;
 	margin: 0 auto;
 	padding: 20px;
 	box-shadow: 10px 10px 20px #cbced1, -10px -10px 20px #fff;
+	transition: all 0.5s ease-in-out;
 }
 
 #Project1:hover {
-	/* width: 100%; */
+	width: 90%;
 	background-color: #0099ff;
 	cursor: pointer;
 	border-radius: 15px;
@@ -111,6 +128,7 @@ body {
 	padding: 20px;
 	box-shadow: 10px 10px 20px #cbced1, -10px -10px 20px #fff;
 }
+
 #Project2 {
 	width: 80%;
 	border-radius: 15px;
@@ -119,10 +137,11 @@ body {
 	margin: 0 auto;
 	padding: 20px;
 	box-shadow: 10px 10px 20px #cbced1, -10px -10px 20px #fff;
+	transition: all 0.5s ease-in-out;
 }
 
 #Project2:hover {
-	width: 100%;
+	width: 90%;
 	background-color: #0099ff;
 	cursor: pointer;
 	border-radius: 15px;
@@ -135,4 +154,86 @@ body {
 
 h3 {
 	color: black;
+}
+
+.switch {
+  position: relative;
+  display: block;
+  width: 45px;
+  height: 25.5px;
+  margin: 10px 16px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s ease-in-out;
+  transition: 1.4s cubic-bezier(0, 0, 0.33, 0.97);
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 19.5px;
+  width: 19.5px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: .4s ease-in-out;
+  transition: 1.4s cubic-bezier(0, 0, 0.33, 0.97);
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(19.5px);
+  -ms-transform: translateX(19.5px);
+  transform: translateX(19.5px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+#Top {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 30px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  widht: 15px;
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#Top:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
 }
