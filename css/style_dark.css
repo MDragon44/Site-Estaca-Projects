@@ -7,6 +7,14 @@ body {
 	/* #0e1538 */
 }
 
+#photoUserLight {
+	visibility: hidden;
+}
+
+#photoUserDark {
+	visibility: visible;
+}
+
 input {
 	font-size: 20px;
 	border-width: 0px;
