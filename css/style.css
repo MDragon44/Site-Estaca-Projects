@@ -19,19 +19,22 @@ h2 {
 	padding-left: 7px;
 }
 
-#photoUserlight {
+#photoUserLight {
 	border-radius: 45px;
 	position:relative;
 	top: 50%;
 	
 }
-#photoUserdark {
+#photoUserDark {
 	border-radius: 45px;
 	position:absolute;
 	top: 50%;
 	visibility: hidden;
 }
 
+#photoUser {
+	border-radius: 45px;
+}
 /* input[type="checkbox"] { */
 		/* -webkit-appearance : none; */
 		/* visibility: hidden; */
