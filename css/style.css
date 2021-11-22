@@ -21,6 +21,7 @@ h2 {
 
 #photoUser {
 	border-radius: 45px;
+	position:absolute
 }
 
 /* input[type="checkbox"] { */
