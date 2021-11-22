@@ -23,13 +23,14 @@ h2 {
 	border-radius: 45px;
 	position:relative;
 	top: 50%;
+	transition: all 0.5s;
 	
 }
 #photoUserDark {
 	border-radius: 45px;
 	position:absolute;
 	top: 50%;
-	visibility: hidden;
+	transition: all 0.5s;
 }
 
 #photoUser {
