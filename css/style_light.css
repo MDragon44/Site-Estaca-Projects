@@ -4,6 +4,14 @@ body {
 	background-color: #ecf0f3;
 }
 
+#photoUserLight {
+	visibility: visible;
+}
+
+#photoUserDark {
+	visibility: hidden;
+}
+
 /* input { */
 	/* font-size: 20px; */
 	/* border-width: 0px; */
