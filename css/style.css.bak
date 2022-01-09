@@ -1,26 +1,112 @@
 /* Icone thème de la page */
-#light {
-	border-radius: 24px;
-	text-align: center;
-	font-size: 20px;
-	color: White;
-	background-color: #bfbfbf;
-	border-style: solid;
-	border-color: #142952;
-	float: right;
+body {
+	transition: all 0.5s;
+	margin: 0;
 }
 
-#dark {
-	border-radius: 24px;
-	text-align: center;
-	font-size: 20px;
-	color: Black;
-	border-style: solid;
-	border-color: CornflowerBlue;
-	background-color: White;
-	float: right;
+html, body, iframe { height: 100%; }
+/* html { overflow: hidden; } */
+
+.header {
+  padding: 5px;
+  text-align: left;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+  text-align: justify;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column2 {
+    width: 100%;
+  }
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column3 {
+    width: 100%;
+  }
+}
+.presentation {
+	text-align: justify;
+	padding: 15px;
+}
+
+.interview {
+	text-align: justify;
+	/* padding: 15px; */
+	/* height:100%; */
+}
+
+.interview:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.video{
+  /* display:flex; */
+  /* flex-direction:column; */
+  /* widht: 100%; */
+  /* height:100%; */
+  padding: 20px;
+}
+
+#topH {
+
+	max-width:50%;
+}
+
+.menu {
+	transition: all 0.5s;
+}
+
+.Paragraphes {
+	transition: all 0.5s;
+}
+
+li {
+	transition: all 0.5s;
+}
 
 h2 {
 	float:left;
@@ -31,27 +117,27 @@ h2 {
 	border-radius: 45px;
 }
 
-.checkbox {
-		-webkit-appearance : none;
-		visibility: hidden;
-		display: none;
-}
-.nightmode {
-	position:relative;
-	display:block;
-	width: 40px;
-	height: 20px;
-	background: #092c3e;
-	cursor:pointer;
-	border-radius: 20px;
-	overflow: hidden;
-	tranistion: ease-in 0.5s;
-}
+/* input[type="checkbox"] { */
+		/* -webkit-appearance : none; */
+		/* visibility: hidden; */
+		/* display: none; */
+/* } */
+/* .nightmode { */
+	/* position:relative; */
+	/* display:block; */
+	/* width: 40px; */
+	/* height: 20px; */
+	/* background: #092c3e; */
+	/* cursor:pointer; */
+	/* border-radius: 20px; */
+	/* overflow: hidden; */
+	/* tranistion: ease-in 0.5s; */
+/* } */
 
-.checkbox:checked ~ .nightmode
-{
-	background:#fff;
-	box-shadow: 0 0 0 1200px #092c3e
-}
+/* input[type="checkbox"]:checked ~ .nightmode */
+/* { */
+	/* background:#fff; */
+	/* box-shadow: 0 0 0 1200px #092c3e */
+/* } */
 
 

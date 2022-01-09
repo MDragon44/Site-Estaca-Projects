@@ -7,14 +7,6 @@ body {
 	/* #0e1538 */
 }
 
-#photoUserLight {
-	visibility: hidden;
-}
-
-#photoUserDark {
-	visibility: visible;
-}
-
 input {
 	font-size: 20px;
 	border-width: 0px;
@@ -29,7 +21,7 @@ input {
 	border-radius: 15px;
 	position: relative;
 	background-color: #0e1538;
-	max-width: 280px;
+	max-width: 340px;
 	margin: 0 auto;
 	padding: 20px;
 	box-shadow: 10px 10px 20px #0a0f29, -10px -10px 20px #141f52;
@@ -199,7 +191,7 @@ h3 {
   bottom: 0;
   background-color: #ccc;
   -webkit-transition: .4s;
-  transition: 1.4s cubic-bezier(0, 0, 0.33, 0.97);
+  transition: .4s;
 }
 
 .slider:before {
@@ -211,7 +203,7 @@ h3 {
   bottom: 3px;
   background-color: white;
   -webkit-transition: .4s;
-  transition: 1.4s cubic-bezier(0, 0, 0.33, 0.97);
+  transition: .4s;
 }
 
 input:checked + .slider {
@@ -235,4 +227,9 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.interview {
+	background-color: #0a0f29;
+	border-radius: 15px;
 }

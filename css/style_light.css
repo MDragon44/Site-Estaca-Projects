@@ -4,23 +4,6 @@ body {
 	background-color: #ecf0f3;
 }
 
-#photoUserLight {
-	visibility: visible;
-}
-
-#photoUserDark {
-	visibility: hidden;
-}
-
-/* input { */
-	/* font-size: 20px; */
-	/* border-width: 0px; */
-	/* background-color: Gainsboro; */
-	/* margin: 8px; */
-	/* padding: 4px; */
-	/* box-sizing: border-box; */
-/* } */
-
 input {
 	font-size: 20px;
 	border-width: 0px;
@@ -30,13 +13,11 @@ input {
 	box-sizing: border-box;
 }
 
-
-
 .menu {
 	border-radius: 15px;
 	position: relative;
 	background-color: #ecf0f3;
-	max-width: 280px;
+	max-width: 340px;
 	margin: 0 auto;
 	padding: 20px;
 	box-shadow: 10px 10px 20px #cbced1, -10px -10px 20px #fff;
@@ -87,7 +68,6 @@ li a:hover:not(.active) {
 .active {
   background-color: #0066ff;
 }
-
 
 #button {
 	border-radius: 15px;
@@ -186,8 +166,8 @@ h3 {
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: .4s ease-in-out;
-  transition: 1.4s cubic-bezier(0, 0, 0.33, 0.97);
+  -webkit-transition: .4s;
+  transition: .4s;
 }
 
 .slider:before {
@@ -198,8 +178,8 @@ h3 {
   left: 3px;
   bottom: 3px;
   background-color: white;
-  -webkit-transition: .4s ease-in-out;
-  transition: 1.4s cubic-bezier(0, 0, 0.33, 0.97);
+  -webkit-transition: .4s;
+  transition: .4s;
 }
 
 input:checked + .slider {
@@ -225,23 +205,7 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-#Top {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 30px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 10px; /* Some padding */
-  widht: 15px;
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
-}
-
-#Top:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+.interview {
+	background-color: rgb(255, 153, 0);
+	border-radius: 15px;
 }
