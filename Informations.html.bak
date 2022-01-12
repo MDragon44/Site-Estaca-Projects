@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+ 	<link rel="stylesheet" href="css/style_dark.css" id="mycss">
+	<title>Informations</title>
+	<link rel="icon" type="image/x-icon" href="https://pbs.twimg.com/profile_images/755292884308459522/ewGGfLoa_400x400.jpg">
+	<!-- <script src="Js/darkMode.js"></script> -->
+</head>
+<body>
+<!-- <div class="nightbar"> -->
+<!-- <input type="checkbox"> -->
+<!-- <span class="nightmode"></span> -->
+<!-- </div>  -->
+<!-- <div class="title"> -->
+<!-- </div> -->
+
+
+	<br>
+	<div class="menu">
+	<img id="Icones" src="img/Info.png" style="width: 30%;" />
+	<br>
+	<br>
+	<ul>
+		<li><a href="Main.html">Home</a></li>
+		<li><a href="#contact">Contact</a></li>
+		<li style="float:right">
+			<!-- Rounded switch -->
+			<label class="switch">
+			<input id="light" type="checkbox" onchange="switchStyle()" checked>
+			<span class="slider round"></span>
+			</label>
+		</li>
+	</ul>
+	<h3 >What is this project about ?</h3>
+	<div class="presentation">
+	<p>This website is an English project, done by a group of 4 Estaca students for their final semester task.</p>
+	<p>It presents two students associations of  the transports engineering school Estaca, showing their creation, growing and best projects. (and perhaps an interview…)</p>
+	<p>Each task has been equally divided to each student, with a condition to write at least 500 words.</p>
+	<p>It was planned to get a third page for a third association but time went short…</p>
+	<p>The website has been created from A to Z by Markus JONCHERAY, without using webpages creation platforms like WIX. That took of course a lot more time, but we don’t wanted to support the trend of easy creation web pages. Many graphic designer, and all this kind of works are suffering from this self madding pages, so we decided not to use them.</p>
+	</div>
+	</div>
+	<script src="Js/darkMode.js"></script>
+</body>
+</html>

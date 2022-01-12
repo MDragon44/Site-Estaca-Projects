@@ -24,7 +24,7 @@
 	<br>
 	<ul>
 		<li><a href="Informations.html">Infos</a></li>
-		<li><a href="Contact.html">Contact</a></li>
+		<li><a href="#contact">Contact</a></li>
 		<li style="float:right">
 			<!-- Rounded switch -->
 			<label class="switch">

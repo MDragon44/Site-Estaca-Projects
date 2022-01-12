@@ -66,8 +66,6 @@ html, body, iframe { height: 100%; }
   clear: both;
 }
 
-
-
 .iframe-container{
   position: relative;
   width: 100%;

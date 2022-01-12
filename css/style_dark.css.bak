@@ -230,6 +230,13 @@ input:checked + .slider:before {
 }
 
 .interview {
-	background-color: black;
+	background-color: #0a0f29;
 	border-radius: 15px;
+}
+.interview2 {
+	background-color: #0a0f29;
+	border-radius: 15px;
+}
+.Icones {
+	color: white;
 }

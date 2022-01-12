@@ -66,6 +66,18 @@ html, body, iframe { height: 100%; }
   clear: both;
 }
 
+.interview2 {
+	text-align: justify;
+	/* padding: 15px; */
+	/* height:100%; */
+}
+
+.interview2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .iframe-container{
   position: relative;
   width: 100%;
